@@ -15,7 +15,7 @@ app.use(cors({
 
 
 app.use("/users", userRouter)
-app.use(authenticate)
+//app.use(authenticate)
 app.use("/posts", postRouter)
 
 app.get("/", (request, response) =>
